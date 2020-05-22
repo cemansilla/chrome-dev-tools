@@ -1,0 +1,21 @@
+#newsletter{
+  background-color: #fff;
+  margin-top: 2em;
+}
+
+#newsletter .inner{
+  margin: 0 auto;
+  max-width: 60em;
+}
+
+#newsletter .inner .field_col{
+  width: 50%;
+  clear: none;
+  margin-left: 0;
+  padding: 1em 0 0 1em;
+  float: left;
+}
+
+#newsletter form input[type="email"]{
+  height: 3em;
+}
