@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Código Café || Chrome Dev Tools</title>
+    <title>Código Café || Chrome Dev Tools</title>
+    <link rel="shortcut icon" href="images/favicon.png" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -140,7 +141,7 @@
     <section id="newsletter">
       <div class="inner">
         <h2>Enterate de nuestras novedades</h2>
-        <form action="">
+        <form action="" id="form_newsletter">
           <div class="row">
             <div class="field_col">
               <input type="email" name="news_email" id="news_email" placeholder="correo@example.com" required>
@@ -148,6 +149,7 @@
 
             <div class="field_col">
               <input type="submit" value="Enviar">
+              <input type="button" value="Test carga de números" onclick="cargarNumeros()">
             </div>
           </div>
         </form>
